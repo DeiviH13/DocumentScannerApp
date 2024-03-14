@@ -50,6 +50,9 @@ android {
 }
 
 dependencies {
+    // Document Scanner dependency
+    implementation ("com.google.android.gms:play-services-mlkit-document-scanner:16.0.0-beta1")
+    implementation("io.coil-kt:coil-compose:2.5.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
